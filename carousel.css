@@ -113,6 +113,33 @@ body {
   line-height: 1;
   letter-spacing: -1px;
 }
+.featurette-price {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  font-size:30px;
+}
+
+
+/* Reviews
+------------------------- */
+
+/* Thin out the marketing headings */
+.review-body {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin-top: 5px;
+  font-size: 30px;
+
+}
+/* Thin out the marketing headings */
+.review-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin-top: 40px;
+}
 
 
 /* RESPONSIVE CSS
@@ -148,10 +175,18 @@ body {
     font-size: 50px;
   }
 
+  .review-heading {
+    font-size: 50px;
+  }
+
 }
 
 @media (min-width: 992px) {
   .featurette-heading {
+    margin-top: 0px;
+  }
+
+  .review-heading {
     margin-top: 120px;
   }
 }
